@@ -5,4 +5,4 @@ mvn -e  exec:java -Dexec.mainClass="io.confluent.examples.clients.cloud.Consumer
 #Команда для запуска Producer
 mvn -e  exec:java -Dexec.mainClass="io.confluent.examples.clients.cloud.ProducerExample" -Dexec.args="/home/misha/examples/java.config test1"
 
-java.config нужно положить в корень examples.
+java.config нужно положить в корень examples, взятую по этой ссылке: https://github.com/confluentinc/examples
