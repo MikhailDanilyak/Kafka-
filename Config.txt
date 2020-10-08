@@ -1,0 +1,8 @@
+Filepath=/home/misha/Keys/
+KeyName=KeyName2.pem
+# Full address: Address=ubuntu@ec2-3-19-185-20.us-east-2.compute.amazonaws.com
+AddressFirstPart=ubuntu@ec2-
+AddressSecondPart=.us-east-2.compute.amazonaws.com
+IP=3-19-185-20
+PathToStartScripts=/home/ubuntu/confluent-6.0.0/bin
+PathToConfigFiles=/home/ubuntu/confluent-6.0.0/etc/kafka/properties
