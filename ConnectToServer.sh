@@ -1,4 +1,4 @@
 #!/bin/bash
 source Config.txt
-Address=$AddressFirstPart$IP$AddressSecondPart
-ssh -i $Filepath$KeyName $Address
+ADDRESS=$ADDRESS_FIRST_PART$IP$ADDRESS_SECOND_PART
+ssh -i $KEY_FILEPATH $ADDRESS
