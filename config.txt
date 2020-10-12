@@ -1,0 +1,10 @@
+KEY_FILEPATH=/home/misha/Keys/KeyName2.pem
+IP=3.19.185.20
+ADDRESS=ubuntu@ec2-${IP//./-}.us-east-2.compute.amazonaws.com
+CONFLUENT_PATH=/home/ubuntu/confluent-6.0.0
+SCRIPTS_PATH=${CONFLUENT_PATH}/bin
+CONFIG_FILES_PATH=${CONFLUENT_PATH}/etc/kafka/properties
+LOG_PATH=/home/misha/Work/KafkaScript/logs
+CONFIG_FILES_LOCAL_PATH=/home/misha/Work/KafkaScript
+JAVA_CONFIG_PATH=/home/misha/examples
+EXAMPLES_JAVA_PATH=${JAVA_CONFIG_PATH}/clients/cloud/java
